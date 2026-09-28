@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "fecha": "2026-09-21 04:41",
+    "repeats": 3,
+    "tesseract": "5.5.0",
+    "pymupdf": "1.24.2",
+    "cpus": 10
+  },
+  "resultados": [
+    {
+      "experimento": "1. Extracción de texto de PDF",
+      "documento": "PDF digital (3 páginas)",
+      "metodo": "pdfplumber",
+      "tiempo_s": 0.015,
+      "caracteres": 1198,
+      "cer_pct": 0.0,
+      "wer_pct": 0.0,
+      "confianza_ocr": null
+    },
+    {
+      "experimento": "1. Extracción de texto de PDF",
+      "documento": "PDF digital (3 páginas)",
+      "metodo": "PyMuPDF",
+      "tiempo_s": 0.001,
+      "caracteres": 1198,
+      "cer_pct": 0.0,
+      "wer_pct": 0.0,
+      "confianza_ocr": null
+    },
+    {
+      "experimento": "1. Extracción de texto de PDF",
+      "documento": "PDF digital (3 páginas)",
+      "metodo": "pdftotext (poppler)",
+      "tiempo_s": 0.007,
+      "caracteres": 1198,
+      "cer_pct": 0.0,
+      "wer_pct": 0.0,
+      "confianza_ocr": null
+    },
+    {
+      "experimento": "1. Extracción de texto de PDF",
+      "documento": "PDF digital grande (60 páginas)",
+      "metodo": "pdfplumber",
+      "tiempo_s": 0.319,
+      "caracteres": 23960,
+      "cer_pct": null,
+      "wer_pct": 0.0,
+      "confianza_ocr": null
+    },
+    {
+      "experimento": "1. Extracción de texto de PDF",
+      "documento": "PDF digital grande (60 páginas)",
+      "metodo": "PyMuPDF",
+      "tiempo_s": 0.016,
+      "caracteres": 23960,
+      "cer_pct": null,
+      "wer_pct": 0.0,
+      "confianza_ocr": null
+    },
+    {
+      "experimento": "1. Extracción de texto de PDF",
+      "documento": "PDF digital grande (60 páginas)",
+      "metodo": "pdftotext (poppler)",
+      "tiempo_s": 0.009,
+      "caracteres": 23960,
+      "cer_pct": null,
+      "wer_pct": 0.0,
+      "confianza_ocr": null
+    },
+    {
+      "experimento": "1. Extracción de texto de PDF",
+      "documento": "PDF escaneado (sin capa de texto)",
+      "metodo": "pdfplumber",
+      "tiempo_s": 0.001,
+      "caracteres": 0,
+      "cer_pct": 100.0,
+      "wer_pct": 100.0,
+      "confianza_ocr": null
+    },
+    {
+      "experimento": "1. Extracción de texto de PDF",
+      "documento": "PDF escaneado (sin capa de texto)",
+      "metodo": "PyMuPDF",
+      "tiempo_s": 0.0,
+      "caracteres": 0,
+      "cer_pct": 100.0,
+      "wer_pct": 100.0,
+      "confianza_ocr": null
+    },
+    {
+      "experimento": "1. Extracción de texto de PDF",
+      "documento": "PDF escaneado (sin capa de texto)",
+      "metodo": "pdftotext (poppler)",
+      "tiempo_s": 0.006,
+      "caracteres": 0,
+      "cer_pct": 100.0,
+      "wer_pct": 100.0,
+      "confianza_ocr": null
+    },
+    {
+      "experimento": "2. OCR de imágenes",
+      "documento": "Imagen limpia (PNG 150 dpi)",
+      "metodo": "Tesseract eng / sin preproc.",
+      "tiempo_s": 0.194,
+      "caracteres": 418,
+      "cer_pct": 1.91,
+      "wer_pct": 11.94,
+      "confianza_ocr": 89.1
+    },
+    {
+      "experimento": "2. OCR de imágenes",
+      "documento": "Imagen limpia (PNG 150 dpi)",
+      "metodo": "Tesseract spa+eng / sin preproc.",
+      "tiempo_s": 0.234,
+      "caracteres": 418,
+      "cer_pct": 0.0,
+      "wer_pct": 0.0,
+      "confianza_ocr": 96.1
+    },
+    {
+      "experimento": "2. OCR de imágenes",
+      "documento": "Imagen limpia (PNG 150 dpi)",
+      "metodo": "Tesseract spa+eng / gris+contraste",
+      "tiempo_s": 0.21,
+      "caracteres": 418,
+      "cer_pct": 0.0,
+      "wer_pct": 0.0,
+      "confianza_ocr": 96.1
+    },
+    {
+      "experimento": "2. OCR de imágenes",
+      "documento": "Imagen limpia (PNG 150 dpi)",
+      "metodo": "Tesseract spa+eng / gris+contraste+x2",
+      "tiempo_s": 0.329,
+      "caracteres": 418,
+      "cer_pct": 0.0,
+      "wer_pct": 0.0,
+      "confianza_ocr": 95.9
+    },
+    {
+      "experimento": "2. OCR de imágenes",
+      "documento": "Imagen limpia (PNG 150 dpi)",
+      "metodo": "Tesseract spa+eng / binarizado (Otsu)",
+      "tiempo_s": 0.43,
+      "caracteres": 418,
+      "cer_pct": 0.0,
+      "wer_pct": 0.0,
+      "confianza_ocr": 96.0
+    },
+    {
+      "experimento": "2. OCR de imágenes",
+      "documento": "Imagen degradada (JPG, promedio de 3 variantes)",
+      "metodo": "Tesseract eng / sin preproc.",
+      "tiempo_s": 0.141,
+      "caracteres": 226,
+      "cer_pct": 51.51,
+      "wer_pct": 70.15,
+      "confianza_ocr": 58.83
+    },
+    {
+      "experimento": "2. OCR de imágenes",
+      "documento": "Imagen degradada (JPG, promedio de 3 variantes)",
+      "metodo": "Tesseract spa+eng / sin preproc.",
+      "tiempo_s": 0.218,
+      "caracteres": 229,
+      "cer_pct": 48.25,
+      "wer_pct": 56.72,
+      "confianza_ocr": 75.23
+    },
+    {
+      "experimento": "2. OCR de imágenes",
+      "documento": "Imagen degradada (JPG, promedio de 3 variantes)",
+      "metodo": "Tesseract spa+eng / gris+contraste",
+      "tiempo_s": 0.177,
+      "caracteres": 230,
+      "cer_pct": 48.25,
+      "wer_pct": 57.21,
+      "confianza_ocr": 75.5
+    },
+    {
+      "experimento": "2. OCR de imágenes",
+      "documento": "Imagen degradada (JPG, promedio de 3 variantes)",
+      "metodo": "Tesseract spa+eng / gris+contraste+x2",
+      "tiempo_s": 0.416,
+      "caracteres": 324,
+      "cer_pct": 26.0,
+      "wer_pct": 35.33,
+      "confianza_ocr": 82.93
+    },
+    {
+      "experimento": "2. OCR de imágenes",
+      "documento": "Imagen degradada (JPG, promedio de 3 variantes)",
+      "metodo": "Tesseract spa+eng / binarizado (Otsu)",
+      "tiempo_s": 0.289,
+      "caracteres": 228,
+      "cer_pct": 52.47,
+      "wer_pct": 69.65,
+      "confianza_ocr": 65.63
+    },
+    {
+      "experimento": "3. OCR de PDF escaneado (3 páginas)",
+      "documento": "PDF escaneado",
+      "metodo": "Tesseract spa+eng / render a 100 dpi",
+      "tiempo_s": 0.74,
+      "caracteres": 1198,
+      "cer_pct": 0.08,
+      "wer_pct": 0.56,
+      "confianza_ocr": 95.3
+    },
+    {
+      "experimento": "3. OCR de PDF escaneado (3 páginas)",
+      "documento": "PDF escaneado",
+      "metodo": "Tesseract spa+eng / render a 150 dpi",
+      "tiempo_s": 0.892,
+      "caracteres": 1198,
+      "cer_pct": 0.08,
+      "wer_pct": 0.56,
+      "confianza_ocr": 95.7
+    },
+    {
+      "experimento": "3. OCR de PDF escaneado (3 páginas)",
+      "documento": "PDF escaneado",
+      "metodo": "Tesseract spa+eng / render a 200 dpi",
+      "tiempo_s": 1.073,
+      "caracteres": 1198,
+      "cer_pct": 0.08,
+      "wer_pct": 0.56,
+      "confianza_ocr": 95.5
+    },
+    {
+      "experimento": "3. OCR de PDF escaneado (3 páginas)",
+      "documento": "PDF escaneado",
+      "metodo": "Tesseract spa+eng / render a 300 dpi",
+      "tiempo_s": 1.81,
+      "caracteres": 1199,
+      "cer_pct": 0.17,
+      "wer_pct": 1.13,
+      "confianza_ocr": 94.7
+    }
+  ]
+}
